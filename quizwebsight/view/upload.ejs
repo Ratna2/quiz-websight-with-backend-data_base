@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Questions</title>
+</head>
+<body>
+  <h1>Upload Questions</h1>
+  <form action="/upload" method="POST">
+    <label for="question">Question:</label>
+    <input type="text" name="question" id="question" required><br><br>
+
+    <label for="options">Options (comma-separated):</label>
+    <input type="text" name="options" id="options" required><br><br>
+
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>
